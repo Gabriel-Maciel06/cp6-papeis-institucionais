@@ -158,18 +158,17 @@ Os testes usam `MockMvc` com o serviço simulado, então não dependem de rede, 
 
 ## 👥 Equipe
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Gabriel-Maciel06">
-        <img src="docs/assets/avatar-gabriel.png" width="110" alt="Gabriel Maciel" style="border-radius:50%"/><br/>
-        <b>Gabriel Maciel Alves de Oliveira</b>
-      </a><br/>
-      <sub>RM 562795 · Turma 2TDSR</sub><br/>
-      <sub>IDE: IntelliJ IDEA</sub>
-    </td>
-  </tr>
-</table>
+**Turma 2TDSR · FIAP**
+
+| Integrante | RM |
+| :-- | :--: |
+| Augusto Bonomo Júnior | 565155 |
+| Gabriel Maciel Alves de Oliveira | 562795 |
+| Matheus Pereira Molina | 563399 |
+| Thomas Fontes | 562254 |
+| Vitória Rodrigues Martins | 565160 |
+
+**IDE utilizada:** IntelliJ IDEA
 
 ## ⚠️ Limitações
 

@@ -1,7 +1,12 @@
 ========================================================================
 CHECKPOINT 6 - ARQUITETURAS DISRUPTIVAS: SPRING AI & MODELOS DE IA
 Prof. Anderson Rodrigues - Turma 2TDSR (FIAP)
-Aluno: Gabriel Maciel Alves de Oliveira - RM: 562795
+INTEGRANTES:
+- Augusto Bonomo Júnior - RM 565155
+- Gabriel Maciel Alves de Oliveira - RM 562795
+- Matheus Pereira Molina - RM 563399
+- Thomas Fontes - RM 562254
+- Vitória Rodrigues Martins - RM 565160
 IDE Utilizado: IntelliJ IDEA
 ========================================================================
 
