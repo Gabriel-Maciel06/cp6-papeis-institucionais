@@ -6,9 +6,9 @@ IDE Utilizado: IntelliJ IDEA
 ========================================================================
 
 LINK DO REPOSITÓRIO GITHUB:
-(Substitua pelo link após o push no seu GitHub, ex: https://github.com/gabriel-maciel/cp6-papeis-institucionais)
+https://github.com/Gabriel-Maciel06/cp6-papeis-institucionais
 
-LINK DO VÍDEO DEMONSTRATIVO (YouTube Não Listado ou Teams):
+LINK DO VÍDEO DEMONSTRATIVO (YouTube):
 https://youtu.be/dpKhW2Fp-BI?is=l1qLJaKkF7xOLcqR
 
 PROVEDOR DE IA UTILIZADO:
