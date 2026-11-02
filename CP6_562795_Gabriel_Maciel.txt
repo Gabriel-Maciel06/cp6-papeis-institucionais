@@ -1,0 +1,20 @@
+========================================================================
+CHECKPOINT 6 - ARQUITETURAS DISRUPTIVAS: SPRING AI & MODELOS DE IA
+Prof. Anderson Rodrigues - Turma 2TDSR (FIAP)
+Aluno: Gabriel Maciel Alves de Oliveira - RM: 562795
+IDE Utilizado: IntelliJ IDEA
+========================================================================
+
+LINK DO REPOSITÓRIO GITHUB:
+(Substitua pelo link após o push no seu GitHub, ex: https://github.com/gabriel-maciel/cp6-papeis-institucionais)
+
+LINK DO VÍDEO DEMONSTRATIVO (YouTube Não Listado ou Teams):
+https://youtu.be/dpKhW2Fp-BI?is=l1qLJaKkF7xOLcqR
+
+PROVEDOR DE IA UTILIZADO:
+- Ollama Local (Modelo: llama3.2:1b)
+- Vantagens: Custo R$ 0,00, sem dependência de chaves de API, execução rápida local.
+
+DOMÍNIO ESCOLHIDO:
+- Consultor Técnico de Papéis Institucionais B2B (Interfolha, Bobina 100m/200m, Higiênico Rolão 200m a 300m / 1.5kg e 2kg, Lençol Hospitalar e Guardanapo TV).
+========================================================================

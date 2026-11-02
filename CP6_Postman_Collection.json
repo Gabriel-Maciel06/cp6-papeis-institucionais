@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "c6a12b34-cp6-fiap-ollama-papeis",
+		"name": "FIAP CP6 - Spring AI & Ollama (Papéis Institucionais)",
+		"description": "Collection de testes para avaliação do Checkpoint 6 da disciplina de Arquiteturas Disruptivas / Java Spring AI.\nAluno: Gabriel Maciel Alves de Oliveira - RM: 562795",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Consulta Válida (Indicação de Papel Toalha e Lençol)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem\": \"Indique três produtos institucionais para uma clínica médica de alto fluxo e justifique cada indicação com base na higiene e economia.\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Consulta Válida (Diferença de Higiênico 200m vs 1.5kg)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem\": \"Qual a diferença prática de aplicação entre o papel higiênico rolão de 200 metros e o de 1,5 kg?\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Rejeição de Mensagem Vazia (400 Bad Request)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem\": \"   \"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Rejeição de Pergunta Fora do Domínio (Teste de Robustez do Prompt)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem\": \"Quem foi o campeão da Copa do Mundo de 1970 e qual foi o placar?\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. Consultar Histórico Ordenado no Banco (GET /api/historico)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/historico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"historico"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,6 @@
+target/
+.idea/
+*.iml
+.DS_Store
+.env
+ROTEIRO_GRAVACAO_VIDEO.md
